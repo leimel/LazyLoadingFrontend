@@ -12,7 +12,7 @@ export const getFormData = (name: string, base64: any, identification: string) =
     let contentFileBase64 = base64.split(",")[1];
 
     return {
-        content: contentFileBase64,
+        contentBase64: contentFileBase64,
         identification: identification
     };
 };
